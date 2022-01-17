@@ -1,0 +1,9 @@
+version: 2
+
+sources:
+  - name: BHAVIK_S3
+    description: Data from data.gov.in about AQI
+    database: FIVETRAN_INTERVIEW_DB
+    loader: Fivetran
+    tables:
+      - name: MH_AQI
